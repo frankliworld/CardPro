@@ -1,0 +1,133 @@
+/*Variables*/
+:root {
+    /*COLOR*/
+    --colorA:#E673E6;
+    --colorB:#B464D9;
+    --colorC:#282828;
+    --colorD:#616161;
+    --colorE:#F7F7F7;
+    --colorF:#FFFFFF;
+
+    /*RADIO*/
+    --radio:10px;
+
+    /*TAMAÑO DE FUENTE*/
+    --midA:1.3em;
+    --midB:.9em;
+    --midC:.7em;
+
+    /*SHADOW*/
+    --shadow: 4px 4px 3px 0px rgba(0,0,0,0.25);
+}
+
+
+
+/*IMPORTAR FUENTE*/
+@font-face {
+    font-family: Avenir-Bold;
+    src: url(../assets/font/AvenirNextLTPro-Bold.otf);
+    /*src: url("assets/font/AvenirNextLTPro-Bold.otf") format("opentype");*/
+}
+
+@font-face {
+    font-family: Avenir-Normal;
+    src: url(../assets/font/AvenirNextLTPro-Regular.otf);
+}
+
+/*Clases para centrar*/
+.left {
+    text-align: left;
+    justify-content: left;
+}
+.center {
+    text-align: center;
+    justify-content: center;
+}
+.right {
+    text-align: right;
+    justify-content: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*DISEÑO DE PRODUCTO --------------------------------------------------------------------------------------------------*/
+body {
+    background: var(--colorC);
+}
+
+
+.card {
+    background: var(--colorF);
+    border-radius: var(--radio);
+    box-shadow: var(--shadow);
+    height: 320px;
+    width: 200px;
+    position: relative;
+}
+ img {
+        border-bottom: 1px solid var(--colorD);
+        border-radius: 10px 10px 0 0;
+        width: 200px;
+    }
+
+p {
+    margin: 0;
+}
+.envio {
+    background: var(--colorF);
+    border-radius: var(--radio);
+    box-shadow: var(--shadow);
+    color: var(--colorA);
+    font-family: Avenir-Normal;
+    font-size: var(--midB);
+    margin: 187px 0 0 10px;
+    padding: 3px;
+    position: absolute;
+    width: 110px;
+}
+
+.circle-car {
+    background-color: var(--colorF);
+    /*background-image: url(../assets/icon/camion.svg);*/
+    /*background-repeat: no-repeat;*/
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    height: 30px;
+    margin: 185px 0 0 160px;
+    width: 30px;
+    position: absolute;
+}
+.circle-car img {
+    border-bottom: none;
+    padding-top: 9px;
+    width: 22px;
+}
+
+.icon-car {
+    position: absolute;
+}
+
+.name {
+    color: var(--colorC);
+    font-size: var(--midC);
+    font-family: Avenir-Normal;
+    margin: 15px 0 10px 10px;
+    width: 180px;
+}
+.price {
+    color: var(--colorA);
+    font-size: var(--midA);
+    font-family: Avenir-Bold;
+    margin-left: 10px;
+}
+.cuotas {
+    color: var(--colorC);
+    font-size: var(--midC);
+    font-family: Avenir-Normal;
+    margin-left: 10px;
+}
+.price-cuotas {
+    font-family: Avenir-Bold;
+}
