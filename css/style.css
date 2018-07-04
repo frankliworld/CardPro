@@ -95,7 +95,8 @@ p {
     border-radius: 15px;
     box-shadow: var(--shadow);
     height: 30px;
-    margin: 185px 0 0 160px;
+    top: 185px;
+    left: 155px;
     width: 30px;
     position: absolute;
 }
