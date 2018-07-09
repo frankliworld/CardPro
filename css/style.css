@@ -17,7 +17,7 @@
     --midC:.7em;
 
     /*SHADOW*/
-    --shadow: 4px 4px 3px 0px rgba(0,0,0,0.25);
+    --shadow: 3px 3px 9px 0px rgba(0,0,0,0.2);
 }
 
 
@@ -54,7 +54,7 @@
 
 /*DISEÑO DE PRODUCTO --------------------------------------------------------------------------------------------------*/
 body {
-    background: var(--colorC);
+    background: var(--colorF);
 }
 
 
@@ -62,7 +62,7 @@ body {
     background: var(--colorF);
     border-radius: var(--radio);
     box-shadow: var(--shadow);
-    height: 320px;
+    height: 340px;
     width: 200px;
     position: relative;
 }
@@ -131,4 +131,15 @@ p {
 }
 .price-cuotas {
     font-family: Avenir-Bold;
+}
+
+.card input {
+    background: var(--colorA);
+    border-radius: 12px;
+    border: none;
+    color: var(--colorF);
+    font-family: Avenir-Bold;
+    margin-top: 9px;
+    padding: 5px;
+    width: 120px;
 }
