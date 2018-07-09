@@ -62,9 +62,18 @@ body {
     background: var(--colorF);
     border-radius: var(--radio);
     box-shadow: var(--shadow);
-    height: 340px;
+    height: 380px;
     width: 200px;
     position: relative;
+}
+
+.cyber-logo {
+    position: absolute;
+    width: 70px;
+    top: 7px;
+    left: 125px;
+    border: none;
+
 }
  img {
         border-bottom: 1px solid var(--colorD);
@@ -133,13 +142,64 @@ p {
     font-family: Avenir-Bold;
 }
 
+.descuento-ad {
+    margin-top: 4px;
+    border: 1px solid #f0c82f;
+    height: 44px;
+    color: var(--colorC);
+    font-family: Avenir-Normal;
+
+}
+.descuento-ad:hover {
+    background: #f0c82f;
+    color: var(--colorF);
+    border-radius: 23px;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+
+.descuento-ad p {
+    position: absolute;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+}
+
+
+.descuento-ad p .dsct {
+    font-family: Avenir-Bold;
+    padding: auto;
+    font-size: var(--midA);
+}
+
+.pe-logo {
+    position: absolute;
+    background: var(--colorF);
+    width: 60px;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    align-content: right;
+    right: 5px;
+    margin: 5px;
+}
+
 .card input {
     background: var(--colorA);
     border-radius: 12px;
     border: none;
     color: var(--colorF);
     font-family: Avenir-Bold;
-    margin-top: 9px;
+    margin-top: 3px;
     padding: 5px;
     width: 120px;
 }
+.card input:hover {
+    width: 160px;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+
